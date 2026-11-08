@@ -44,3 +44,11 @@ JSON diagnostic data exported by the tool can be re-read by the tool using the f
 ## Copyright
 
 CC BY-NC-SA 3.0
+
+## Why not open source it?
+
+I am simply helping a member of the community redistribute this tool here; I have no right to demand that he make it open source. Even if I were concerned about security issues, I could only decide for myself whether or not to use it. Since the tool is not digitally signed, it may trigger false positives on some aggressive antivirus engines; however, Windows Defender currently considers it safe.
+
+Since I know that many non-Chinese-speaking members of overseas communities have also been plagued by counterfeit and substandard "PION" drives, this tool is currently one of the few effective methods for actively detecting such drives without having to disassemble the optical drive.
+
+The Chinese Optical Media Enthusiasts Community would like to say hello to everyone :)
