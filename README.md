@@ -41,6 +41,10 @@ JSON diagnostic data exported by the tool can be re-read by the tool using the f
 2. `-l` / `--lang`: Specifies the language used for output; the default is Chinese, but it switches to English in non-Chinese environments. Use `-l en` or `--lang=en` to switch to English output, and use `-l zh` or `--lang=zh` to switch to Chinese output.
 3. `-d` / `--drive`: Specifies the drive letter of the optical drive, such as `-d E` or `--drive=E`.
 
+## Data Explanation
+
+1. **About "Loading Cycles"**: A cycle is counted whenever the drive's tray or cover completes a single ejection or pop-up action, whereas a "Discs Loaded" event is only counted after the drive successfully recognizes and ejects a disc. Therefore, "Empty cycles" simply means that some ejection actions are performed solely to open the drive when there is no disc inside, which is why empty cycle counts exist, the calculation method is the "Loading Cycles" count minus the "Total Discs Loaded" (the sum of the number of CDs, DVDs, and BDs loaded).
+
 ## Copyright
 
 CC BY-NC-SA 3.0
