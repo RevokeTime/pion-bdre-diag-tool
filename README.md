@@ -1,4 +1,4 @@
-# PION Blue-ray Optical Drive Diagnostic Tool
+# PION Blu-ray Optical Drive Diagnostic Tool
 
 This software was developed by an anonymous member of the community and is designed to provide Blu-ray enthusiasts with valuable information about the internals of "PION" Blu-ray drives, serving as a reference for identifying and diagnosing various drive issues.
 
@@ -43,7 +43,7 @@ JSON diagnostic data exported by the tool can be re-read by the tool using the f
 
 ## Data Explanation
 
-1. **About "Loading Cycles"**: A cycle is counted whenever the drive's tray or cover completes a single ejection or pop-up action, whereas a "Discs Loaded" event is only counted after the drive successfully recognizes and ejects a disc. Therefore, "Empty cycles" simply means that some ejection actions are performed solely to open the drive when there is no disc inside, which is why empty cycle counts exist, the calculation method is the "Loading Cycles" count minus the "Total Discs Loaded" (the sum of the number of CDs, DVDs, and BDs loaded).
+1. **About "Loading Cycles"**: A cycle is counted whenever the drive's tray or cover completes a single ejection or pop-up action, whereas a "Discs Loaded" event is only counted after the drive successfully recognizes and ejects a disc. Therefore, "Empty cycles" simply means that some ejection actions are performed solely to open the drive when there is no disc inside, which is why empty cycle counts exist, the calculation method is the "Loading Cycles" count minus the "Total Discs Loaded" (the sum of the number of CDs, DVDs, and BDs loaded). Because drives with discs already loaded are frequently put into sleep mode and then woken up, or are re-recognition after a power outage, this overly simplistic method of calculating "Empty cycles" was removed starting with version 1.4.2.0 to avoid causing misunderstandings.
 
 ## Copyright
 
@@ -56,3 +56,9 @@ I am simply helping a member of the community redistribute this tool here; I hav
 Since I know that many non-Chinese-speaking members of overseas communities have also been plagued by counterfeit and substandard "PION" drives, this tool is currently one of the few effective methods for actively detecting such drives without having to disassemble the optical drive.
 
 The Chinese Optical Media Enthusiasts Community would like to say hello to everyone :)
+
+## Join the discussion
+
+> The forum and Reddit subreddit for a certain UHD disc ripping tool have removed discussion posts about that tool.
+
+- CDRinfo.pl: <https://forum.cdrinfo.pl/f107/pioneer-blu-ray-optical-drive-diagnostic-tool-99521/>
